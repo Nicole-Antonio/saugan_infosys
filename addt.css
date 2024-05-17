@@ -1,0 +1,11 @@
+.hero-btn{
+	display: inline-block;
+	text-decoration: none; 
+	color: #fff; 
+	border:1px solid #fff; 
+	padding: 12px 34px; 
+	font-size: 13px; 
+	background: transparent; 
+	position: relative; 
+	cursor: pointer;
+}

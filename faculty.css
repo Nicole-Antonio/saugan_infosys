@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.headerhome{
+  min-height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.linkhome{
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: white;
+  padding: 0.8rem;
+  float: right;
+  transition: .3s ease;
+}
+
+.text-box{
+  width: 90%;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text-box h1{
+  font-size: 55px;
+}
+
+.text-box p{
+  margin: 10px 0 40px;
+  font-size: 14px;
+  color: #fff;
+}
+
+.new-sec{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    transition: 0.3s;
+  }
+
+  .new-sec p{
+    color: #777;
+    font-size: 14px;
+    line-height: 22px;
+    padding: 10px;
+  }
+
+  /*FOR PHONE SCREENS*/
+
+  @media(max-width: 700px){
+    .text-box h1{
+      font-size: 20px;
+    }
+
+    .new-sec{
+      flex-direction: column;
+    }
+  }
+
+/*Contact US*/
+
+.subheaderhome{
+  height: 50vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/teachers.jpg);
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+}
+
+.subheaderhome h1{
+  text-align: center;
+  margin-top: 100px;
+}
+

@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/saugan.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.container{
+    max-width: 440px;
+    padding: 0 20px;
+    margin: 170px auto;
+}
+
+.wrapper{
+    width: 100%;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.wrapper .title{
+    line-height: 80px;
+    background: #3d6098;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+    font-size: 25px;
+    color: #fff;
+    font-weight: 600;
+
+
+}
+
+.wrapper form{
+    padding:  25px 25px 25px 25px;
+}
+
+
+.wrapper form .row{
+    height: 45px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.wrapper form .row input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding-left: 60px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    font-size: 16px;
+}
+
+form .row input:focus{
+    border-color: #3d6098;
+    box-shadow: inset 0px 0px 2px 2px rgba(61, 96, 152, 0.25 );
+}
+
+.wrapper form .row span{
+    position: absolute;
+    width: 47px;
+    height: 100%;
+    background: #3d6098;
+    font-size: 18px;
+    border: 1px solid #3d6098;
+    border-radius: 5px 0 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.wrapper form a{
+    text-decoration: none;
+    color: #3d6098;
+}
+
+.wrapper form .button input{
+    color:  #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 0px;
+    background: #3d6098;
+    border: 1px solid #3d6098;
+    cursor: pointer;
+ }
+
+ .wrapper form .button input:hover{
+    background: #213159;
+    border: 1px solid #213159;
+ }
